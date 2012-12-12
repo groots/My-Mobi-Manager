@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^page/([a-z]+)/([0-9]+)/  http://www.mymobimanager.com/page.php?user=$1&pageid=$2 [NC]
+
+
+ 

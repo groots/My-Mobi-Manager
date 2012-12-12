@@ -1,0 +1,21 @@
+#sidebar {
+    width: 300px;
+    float: right;
+}
+
+
+#sidebar li {
+   list-style: none;
+   text-align: left;
+}
+
+#sidebarWrapper ul li li {
+	border: thin #3c3c3c solid;	
+   padding: 14px;
+}
+
+.widgettitle {
+	font-size: 20px;
+	line-height: 21px;
+	font-weight: bold;		
+}

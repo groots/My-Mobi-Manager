@@ -1,0 +1,390 @@
+		<Add xmlns="http://delivra.com/">
+			<Member>
+				<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+					<xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Member" msdata:UseCurrentLocale="true">
+						<xs:complexType>
+							<xs:choice minOccurs="0" maxOccurs="unbounded">
+								<xs:element name="Member">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="AdditionalData" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="2147483647" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Comment" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="2147483647" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Comment2" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="200" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Comment3" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Comment4" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Comment5" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Comment6" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Comment7" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="ConfirmDate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+											<xs:element name="DateBounced" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+											<xs:element name="DateHeld" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+											<xs:element name="DateJoined" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+											<xs:element name="DateUnsubscribed" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+											<xs:element name="DomainName" msdata:ReadOnly="true" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="250" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="EmailAddress" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="100" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="FullName" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="100" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="List" msdata:ReadOnly="true" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="60" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="MailFormatPreferred" msdata:ReadOnly="true" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="1" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="MemberID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+											<xs:element name="MemberType" msdata:ReadOnly="true" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="20" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="NumberBounces" msdata:ReadOnly="true" type="xs:short" default="0" />
+											<xs:element name="SubType" msdata:ReadOnly="true" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="20" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="UserID" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="20" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="UserNameLowerCase" msdata:ReadOnly="true" default="">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="100" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="FirstName" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="LastName" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Company" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Address" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="AddressCity" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="AddressState" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="AddressZip" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="10" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="AddressPhone" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="15" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="ProfileIndustry" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="ProfileDepartment" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="ProfileTitle" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="ProfileCompanySize" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="AddressAltPhone" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="15" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="UserDate" type="xs:dateTime" default="1900-01-01T00:00:00-05:00" minOccurs="0" />
+											<xs:element name="UserDate1" type="xs:dateTime" default="1900-01-01T00:00:00-05:00" minOccurs="0" />
+											<xs:element name="UserDate2" type="xs:dateTime" default="1900-01-01T00:00:00-05:00" minOccurs="0" />
+											<xs:element name="UserDate3" type="xs:dateTime" default="1900-01-01T00:00:00-05:00" minOccurs="0" />
+											<xs:element name="UserDate4" type="xs:dateTime" default="1900-01-01T00:00:00-05:00" minOccurs="0" />
+											<xs:element name="UserDate5" type="xs:dateTime" default="1900-01-01T00:00:00-05:00" minOccurs="0" />
+											<xs:element name="Number1" type="xs:int" default="0" minOccurs="0" />
+											<xs:element name="Number2" type="xs:int" default="0" minOccurs="0" />
+											<xs:element name="Number3" type="xs:int" default="0" minOccurs="0" />
+											<xs:element name="Number4" type="xs:int" default="0" minOccurs="0" />
+											<xs:element name="Number5" type="xs:int" default="0" minOccurs="0" />
+											<xs:element name="Text1" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Text2" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Text3" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Text4" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Text5" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="UnsubMessageID" msdata:ReadOnly="true" type="xs:int" default="0" minOccurs="0" />
+											<xs:element name="Text6" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Text7" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Text8" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Text9" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Text10" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="Text11" default="" minOccurs="0">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:maxLength value="50" />
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:element>
+											<xs:element name="ExpireDate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:choice>
+						</xs:complexType>
+						<xs:unique name="Constraint1" msdata:PrimaryKey="true">
+							<xs:selector xpath=".//Member" />
+							<xs:field xpath="MemberID" />
+						</xs:unique>
+					</xs:element>
+				</xs:schema>
+				<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+					<DocumentElement xmlns="">
+						<Member diffgr:id="Member1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+							<AdditionalData />
+							<Comment>this is a test</Comment>
+							<Comment2 />
+							<Comment3 />
+							<Comment4 />
+							<Comment5 />
+							<Comment6 />
+							<Comment7 />
+							<DomainName />
+							<EmailAddress>servicetest@delivra.com</EmailAddress>
+							<FullName>Delivra Test</FullName>
+							<List />
+							<MailFormatPreferred />
+							<MemberID>0</MemberID>
+							<MemberType />
+							<NumberBounces>0</NumberBounces>
+							<SubType />
+							<UserID />
+							<UserNameLowerCase />
+							<FirstName />
+							<LastName />
+							<Company>Delivra</Company>
+							<Address>123 main st.</Address>
+							<AddressCity />
+							<AddressState />
+							<AddressZip />
+							<AddressPhone />
+							<ProfileIndustry />
+							<ProfileDepartment />
+							<ProfileTitle />
+							<ProfileCompanySize />
+							<AddressAltPhone />
+							<UserDate>1985-07-03T00:00:00-04:00</UserDate>
+							<UserDate1>1900-01-01T00:00:00-05:00</UserDate1>
+							<UserDate2>1900-01-01T00:00:00-05:00</UserDate2>
+							<UserDate3>1900-01-01T00:00:00-05:00</UserDate3>
+							<UserDate4>1900-01-01T00:00:00-05:00</UserDate4>
+							<UserDate5>1900-01-01T00:00:00-05:00</UserDate5>
+							<Number1>12345</Number1>
+							<Number2>0</Number2>
+							<Number3>0</Number3>
+							<Number4>0</Number4>
+							<Number5>0</Number5>
+							<Text1>testing</Text1>
+							<Text2 />
+							<Text3 />
+							<Text4 />
+							<Text5 />
+							<UnsubMessageID>0</UnsubMessageID>
+							<Text6 />
+							<Text7 />
+							<Text8 />
+							<Text9 />
+							<Text10 />
+							<Text11 />
+						</Member>
+					</DocumentElement>
+				</diffgr:diffgram>
+			</Member>
+		</Add>

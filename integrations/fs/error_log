@@ -1,0 +1,12 @@
+[11-Oct-2010 22:28:21] PHP Fatal error:  Class 'FormSpring' not found in /home/squish7/public_html/mymobimanager.com/integrations/fs/submit.php on line 66
+[11-Oct-2010 22:31:24] PHP Fatal error:  Class 'FormSpring' not found in /home/squish7/public_html/mymobimanager.com/integrations/fs/submit.php on line 87
+[11-Oct-2010 22:31:50] PHP Fatal error:  Class 'FormSpring' not found in /home/squish7/public_html/mymobimanager.com/integrations/fs/submit.php on line 98
+[11-Oct-2010 22:43:22] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/squish7/public_html/mymobimanager.com/integrations/fs/submit.php on line 74
+[11-Oct-2010 22:54:39] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/squish7/public_html/mymobimanager.com/integrations/fs/submit.php on line 74
+[11-Oct-2010 23:00:51] PHP Warning:  Invalid argument supplied for foreach() in /home/squish7/public_html/mymobimanager.com/integrations/fs/submit.php on line 75
+[11-Oct-2010 23:00:51] PHP Warning:  Invalid argument supplied for foreach() in /home/squish7/public_html/mymobimanager.com/integrations/fs/submit.php on line 75
+[11-Oct-2010 23:03:03] PHP Warning:  Invalid argument supplied for foreach() in /home/squish7/public_html/mymobimanager.com/integrations/fs/submit.php on line 75
+[11-Oct-2010 23:03:03] PHP Warning:  Invalid argument supplied for foreach() in /home/squish7/public_html/mymobimanager.com/integrations/fs/submit.php on line 75
+[11-Oct-2010 23:16:15] PHP Warning:  Invalid argument supplied for foreach() in /home/squish7/public_html/mymobimanager.com/integrations/fs/submit.php on line 76
+[11-Oct-2010 23:16:15] PHP Warning:  Invalid argument supplied for foreach() in /home/squish7/public_html/mymobimanager.com/integrations/fs/submit.php on line 76
+[11-Oct-2010 23:19:13] PHP Parse error:  syntax error, unexpected '[' in /home/squish7/public_html/mymobimanager.com/integrations/fs/submit.php on line 75

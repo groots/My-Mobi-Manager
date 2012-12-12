@@ -1,0 +1,2 @@
+[03-Sep-2011 06:06:02] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'host name' (1) in /home/squish7/public_html/mymobimanager.com/admin/paging/testpage.php on line 4
+[03-Sep-2011 06:24:07] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'host name' (1) in /home/squish7/public_html/mymobimanager.com/admin/paging/test_sub.php on line 3

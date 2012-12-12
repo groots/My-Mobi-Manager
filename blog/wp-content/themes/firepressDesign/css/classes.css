@@ -1,0 +1,245 @@
+.categoryWrapper {
+	width: 95%;
+	text-align: left;
+}
+
+.postAvatarWrapper {
+	width: 98%;
+	padding: 20px 0px 20px 0px;
+	clear:both;
+	min-height: 80px;
+}
+
+.postAvatar {
+	width: 17%;
+	position: relative; 
+	float: left;
+}
+
+.postWrapper {
+	width: 82%;
+	position: relative;
+	float: left;
+	color: #333333;
+	text-align: left;
+	padding-bottom: 30px;
+	right: 15px;
+}
+
+.sideAds {
+	min-height: 200px;	
+	border: thin solid #333;
+}
+
+.cpPostWrapper {
+	width: 100%;
+	position: relative;
+	color: #333333;
+	text-align: left;
+	padding-bottom: 30px;
+	right: 15px;
+	
+}
+
+.cpPostWrapper img {
+	padding-bottom: 20px;	
+}
+
+.category-header {
+	border-top: medium #99BBCF solid;
+	text-align: left;
+	font-size: 18px;
+	color: 2c2c2c;
+	font-weight: bold;
+	padding: 5px 10px 0px 10px;
+	width: 100%;
+	background: #CBE6F5;	
+	height: 25px;
+}
+
+.category-header a {
+	font-size: 14px;
+	font-family:helvetica, Arial, sans-serif;
+	color: #2c2c2c;
+	font-weight: bold;
+}
+	
+.postTitle {
+	margin-bottom: 7px;	
+}
+
+.postTitle a {
+	color: #2c2c2c;	
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.cpPostTitle {
+	color: #2c2c2c;	
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.cpPostTitle a {
+	color: #2c2c2c;	
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.subCatTitle  {
+	color: #2c2c2c;
+	font-size:12px;
+	font-family: helvetica, arial, sans-serif;
+	text-transform:uppercase;
+	margin-bottom: 3px;	
+}
+
+.subCatTitle a {
+	color: #2c2c2c;
+	font-size:12px;
+	font-weight: bold;
+	font-family: helvetica, arial, sans-serif;
+	text-transform:uppercase;	
+}
+
+.singlePostTitle {
+	color: #2c2c2c;	
+	font-size: 30px;
+	text-align: left;
+	font-weight: bolder;
+	padding: 10px 4px;
+}
+
+.thePost {
+	line-height: 16px;
+	font-size:14px;	
+	clear: both;	
+	width: 100%;
+}
+.postDate {
+	color: #b9b9b9;	
+	text-align: left;
+}
+
+.postNav {
+	position: relative;
+	width: 100%;
+	padding-top: 25px;
+	margin-bottom: 75px;
+	font-weight: bolder;
+	font-size: 14px;
+	line-height:16px;
+	
+}
+
+.postNav a {
+	color: #023168;
+	font-weight: bolder;
+	font-size: 14px;	
+}
+
+.postNavPrev {
+	float: left;
+	width: 45%;
+	text-align: left;
+}
+
+.postNavGeneric {
+	text-transform: uppercase; /* force text to uppercase */
+	font-weight: 800;
+	color: #979797;
+	
+}
+
+.postNavNext {
+	float: right;
+	width: 45%;	
+	text-align: right;
+}
+
+.cpPost {
+	clear: both;
+	font-size:16px;
+	line-height: 24px;	
+	margin-top: 15px;
+	width: 100%;
+}
+
+.clear {
+	clear: both;	
+}
+
+.hr {
+	border-bottom: thin solid #b9b9b9;	
+	width: 100%;
+	padding: 0px 0px 10px 0px;
+}
+
+.posthr {
+	border-bottom: 2px solid black;	
+	width: 100%;
+	padding: 0px 0px 15px 0px;
+	margin-bottom: 10px;
+}
+
+.singlePostDate {
+	width: auto;
+	color: #8b8b8b;
+	display: inline;
+	text-align: left;
+}
+
+.entry {
+	text-align: left;	
+	line-height: 24px;
+	font-size:16px;
+}
+
+.entry img {
+	margin: 40px 0px 20px 0px;
+}
+
+.fbcomments span {
+	padding: 10px;	
+}
+
+.fbcomments p {
+	
+}
+
+.fbcomments h3 {
+	font-size: 26px;
+	line-height: 18px;
+	font-weight: bold;	
+}
+
+.fb-like {
+	position: relative;
+	bottom: 2px;
+	padding-right: -30px;
+}
+
+.bookmarkItem {
+	padding: 0px 5px;
+	font-size: 14px;
+	color: #042e5e;	
+}
+
+.postmetadata {
+	display: none;	
+}
+
+.shareThoughts {
+	position: relative;
+	float: right;	
+	left: 55px;
+	bottom: 40px;
+	height: auto;
+}
+
+.shareThoughts .fb-like span {
+	position: relative;
+	top: 10px;	
+}
+

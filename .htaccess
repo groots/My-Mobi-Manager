@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond %{HTTP_USER_AGENT} (symbos|windows\ mobile|smartphone|blackberry|ppc|midp|windows\ ce|mtk|j2me|symbian|series\ 60|android) [NC]
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{REQUEST_URI} !^/admin/ [NC]
+RewriteCond %{REQUEST_URI} !^/(.*)/ [NC]
+RewriteCond %{REQUEST_URI} !^/(.*)\. [NC]
+RewriteCond %{HTTP_HOST}<>%{REQUEST_URI} ^([^.]+)\.mymobimanager\.com(:80)?<>/([^/]*) [NC]
+RewriteRule ^(.*)$ page.php?u=%1&p=%{QUERY_STRING} [L]

@@ -1,0 +1,122 @@
+
+#pageTitleWrapper {
+	position:relative;
+	width: 100%;
+	text-align: left;
+	height: auto;
+	overflow: hidden;
+	border-bottom: solid 1px #d4d4d4;
+	display:table;
+	
+}
+
+#pageTitle {
+	font-size: 48px;
+	font-weight: bolder;
+	float: left;
+	max-height: 100%;
+	padding-right: 10px;
+	max-width: 	33%;
+	margin: 0px 20px 10px 0px;
+	border-right: thin solid #ccc;
+}
+
+#pageTitle img {
+	position: relative;
+	top: 15px;	
+}
+
+#titleTaglineWrapper {
+	
+	width: auto;
+	float: left;
+	color: #474747;
+	text-align: left;
+	font-size: 14px;
+	
+}
+
+#titleTagline {
+	color: #474747;
+	text-align: left;
+	font-size: 14px;
+	padding-left: 10px;
+	font: Helvetica, Arial, sans-serif;
+	display: table-cell;
+	vertical-align: middle;
+	width: auto;
+	float: left;
+	margin-top: -10px;
+	left: 35%;
+	position:absolute;
+	top: 50%;
+}
+
+#titleTagWCat {
+	position: relative;
+	color: #474747;
+	text-align: left;
+	font-size: 14px;
+	font: Helvetica, Arial, sans-serif;
+	width: 100%;
+	padding-left: 0px;
+	
+}
+
+#socialBookmarks {
+	text-align: left;	
+	padding: 5px 0px 5px 0px;
+}
+
+#catSocialBookmarks {
+	padding: 0px 0px 0px 10px;
+	float: right;
+}
+
+#breadCrumbs{
+	text-align: left;
+	width: 80%;
+	margin:20px 0px 60px 0px;
+}
+#breadCrumbs li {
+	list-style-type: none;
+	float: left;
+	margin: 0px 10px;
+   list-style: none;
+   padding-left: 10px;
+	
+}
+
+#breadCrumbs li.last {
+   border: 10 solid medium;
+   padding-left: 0px;
+}
+
+
+#postCats {
+	width: 100%;
+	padding: 5px 0px;
+	margin-top: 25px;
+	border-top: thin solid #3c3c3c;
+	border-bottom: thin solid #3c3c3c;	
+}
+
+#bc_jumpto_text {
+	float: left; 
+	min-width: 7%;
+	width: auto;	
+	
+}
+
+#bc_list_cats {
+	padding: 0px;
+	float: left;
+	width: auto; 
+	text-align: left; 
+	
+}
+ 
+#myGPlus {
+	position: relative;
+	margin-left: 15px;	
+}

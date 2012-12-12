@@ -1,0 +1,157 @@
+.main { width:990px;}
+
+
+
+#header {height:81px;}
+
+#header .column { width:575px; float:left;}
+
+#header .column_1 { width:400px; float:left;}
+
+
+
+#header_1 .column { width:526px; float:left;}
+
+#header_1 .column_1 { width:245px; float:left;}
+
+
+
+
+
+#footer { height:70px;}
+
+#footer .column{ width:546px; float:left;}
+
+#footer .column_1{ width:190px; float:left;}
+
+
+
+/*---page---*/
+
+#page #wrapper .column{ width:544px; float:left;}
+
+#page #wrapper .column_1{ width:225px; float:left;}
+
+/*---// page---*/
+
+
+
+/*---page_1---*/
+
+#page_1 #wrapper .column{ width:544px; float:left;}
+
+#page_1 #wrapper .column_1{ width:225px; float:left;}
+
+/*---// page_1---*/
+
+
+
+/*---page_2---*/
+
+#page_2 #wrapper .column{ width:544px; float:left;}
+
+#page_2 #wrapper .column_1{ width:225px; float:left;}
+
+/*---// page_2---*/
+
+
+
+/*---page_3---*/
+
+#page_3 #wrapper .column{ width:544px; float:left;}
+
+#page_3 #wrapper .column_1{ width:225px; float:left;}
+
+/*---// page_3---*/
+
+
+
+/*---page_4---*/
+
+#page_4 #wrapper .column{ width:544px; float:left;}
+
+#page_4 #wrapper .column_1{ width:225px; float:left;}
+
+/*---// page_4---*/
+
+
+
+/*---page_5---*/
+
+#page_5 #wrapper .column{ width:769px;}
+
+/*---// page_5---*/
+
+
+ol,ul { list-style:none; }
+
+#slideWrapper {
+	width: 350px;
+	background:none;
+	
+}
+#slider {
+	width: 350px;
+	overflow: hidden;
+	height: 217px;
+}
+.slider {
+	height: 231px;
+	width: 350px!important;
+}
+.slider_content {
+	width: 350px;
+	height: 217px;
+	margin: 0 auto;
+	display: block;
+	text-indent: -9999px;
+}
+
+#ipad {
+        width: 350px;
+        height: 217px;
+}
+#ipad .slider_content {
+	background: transparent url('images/macbook.png') no-repeat top left;
+}
+#iphone {
+        width: 350px;
+        height: 217px;
+}
+#iphone .slider_content {
+	background: transparent url('images/mainImage.png') no-repeat top left;
+}
+#macbook {
+	background: transparent url('images/mainImage2.png') no-repeat top left;
+        width: 350px;
+        height: 217px;
+}
+#macbook .slider_content {
+}
+
+#slider_controls {
+	width: 350px;
+	position: relative;
+	margin: 0 auto;
+	height: 1px;
+}
+#slider_controls ul {
+	background: transparent url('images/nav.png') no-repeat bottom center;
+	display:block;
+	height:32px;
+	position:absolute;
+	right:-60px;
+	text-indent:-9999px;
+	top:-45px;
+	width:164px;
+	z-index:9998;
+}
+#slider_controls li {
+	float: left;
+	width: 82px;
+	height: 32px;
+}
+#slider_controls li a {
+	display: block;
+	height: 32px;
+}

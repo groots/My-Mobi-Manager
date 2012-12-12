@@ -1,0 +1,138 @@
+/*  
+Theme Name: DJ
+Theme URI: http://www.unodesignstudio.com
+Description: Designed and developed by: <a href="http://www.unodesignstudio.com">Uno Design Studio</a>
+Version: 1.0
+Author: UNO Design Studio
+Author URI: http://www.unodesignstudio.com
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+*, html { margin: 0; padding: 0; }
+
+body { background-color: #2f3437; background-image: url(images/bg.png); background-repeat: repeat-y; background-position: top; color: #ccc; font-size: 62.5%; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: center; }
+
+a { color: #666; text-decoration: none; }
+
+	a:hover { text-decoration: underline; }
+
+.entry a { color: #db2c00; text-decoration: none; font-weight: bold; }
+
+	a:hover { text-decoration: underline; }
+
+blockquote { margin: 15px; padding: 0 0 0 10px; border-left: 5px solid #db2c00; }
+
+p { margin: 10px 0; } 
+
+.pagetitle { background: none; }
+
+#header { background-image: url(images/head-bg.png); background-repeat: no-repeat; background-position: top; height: 451px; text-align: center; }
+
+	#headerimg { padding: 200px 0 0 0; text-align: left; margin: 0 auto; width: 690px; }
+	
+		#headerimg h1 { font-size: 36px; font-weight: normal; padding: 0 0 0 30px; font-family: "Myriad Pro", Verdana, Arial, Helvetica, sans-serif; }
+		
+		.description { padding: 0 0 0 30px; color: #ffa020; font-size: 1.7em; font-family: "Myriad Pro", Verdana, Arial, Helvetica, sans-serif; }
+	
+		#headerimg a { color: #fff; text-decoration: none; } #headerimg a:hover { color: #fff; text-decoration: underline; }
+		
+		#headerimg ul { list-style: none; height: 20px; margin: 120px 0 0 0; }
+		
+			#headerimg ul li { float: left; padding: 3px 10px; font-size: 1.3em; }
+
+#page { margin: 0 auto; width: 690px; color: #333; font-size: 1.1em; text-align: left; }
+
+	#content { width: 456px; float: left; }
+	
+		.post h2, .post h3 { background-color: #141617; background-image: url(images/title-bg.png); background-position: top; background-repeat: no-repeat; padding: 0 20px; font-size: 1.8em; font-weight: normal; color: #fff; }
+		
+			.post h2 a, .post h3 a { color: #fff; text-decoration: none; }
+			
+				.post h2 a:hover, .post h3 a:hover { color: #ffa020; }
+		
+.pagetitle { font-size: 1.8em; font-weight: normal; margin: 0 0 15px 0; padding: 0; }
+
+		.postdata { background-color: #141617; background-image: url(images/post-bg.png); background-repeat: no-repeat; background-position: bottom; color: #ffa020; min-height: 15px; padding: 5px 20px 2px 20px; }
+		
+		.postdata a { color: #fff; text-decoration: none; }
+		
+		.post .entry { line-height: 1.4em; text-align: justify; padding: 15px 5px 25px 5px; }
+		
+		.post ul, .post ol { margin: 10px 50px; }
+		
+		.post ul ul { margin: 10px; }
+		
+		img.wp-smiley { vertical-align: text-bottom; }
+		
+		.commentcount, .postmetadata { background: url(images/border.png) repeat-x; text-align: right; }
+		
+		.postmetadata { text-align: center; background-position: top; padding: 20px 10px; }
+		
+		.commentcount span { background: #fff; padding: 2px 5px; }
+		
+			.commentcount span a { color: #222; }
+	
+	#sidebar { width: 227px; margin: 0 0 0 463px; background: #f3f3f3; }
+	
+		#sidebar a { color: #333; text-decoration: none; }
+		
+			#sidebar a:hover { text-decoration: underline; }
+	
+		#sidebar h2 { background-image: url(images/side-bg.png); background-position: top; background-repeat: no-repeat; padding: 17px 10px 10px 33px; color: #fff; font-weight: normal; font-size: 1.5em; height: 25px; }
+	
+		#sidebar ul { list-style: none; }
+		
+			#sidebar ul ul, #sidebar ul div { padding: 20px 15px; }
+			
+				#sidebar ul ul ul { padding: 0; }
+				
+			#sidebar #searchform { text-align: center; }
+			
+		#wp-calendar { width: 197px; text-align: center; }
+		
+		#wp-calendar a { text-decoration: underline; }
+			
+			#wp-calendar a:hover { text-decoration: none; }
+		
+		#wp-calendar th { background-color: #333; color: #efefef; padding: 2px; }
+		
+		#wp-calendar td { padding: 2px; background: #ccc; }
+		
+		#wp-calendar #today { background: #ffa020; }
+
+#footer { clear: both; background-color: #2f3437; background-image: url(images/foot-bg.png); background-repeat: no-repeat; background-position: top; padding: 37px 0 5px 0; text-size: 11px; }
+
+	#footer a { color: #ccc; text-decoration: none; } 
+	
+		#footer a:hover { color: #fff; }
+		
+.navigation { height: 15px; padding: 7px; clear: both; text-align: center; }
+
+.center { text-align: center; }
+
+.alignleft { float: left; } .alignright { float: right; }
+
+#comments, #respond { font-size: 1.4em; font-weight: normal; }
+
+.commentlist { list-style: none; margin: 10px; }
+
+	.commentlist li { padding: 10px; }
+	
+	.commentlist li li { padding: 0; }
+	
+	.commentlist cite { font-style: normal; font-weight: bold; color: #FFA020; }
+	
+		.commentlist cite a { color: #db2c00; }
+		
+	.commentlist blockquote { border-left-color: #666; }
+
+	.alt { background: #eee; }
+
+.commentlist ul, .commentlist ol { margin: 10px 20px 10px 50px; }
+
+	.commentlist ul ul { margin: 10px; }
+
+#comment, #author, #email, #url { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; }

@@ -1,0 +1,53 @@
+BODY,font,p,input,td{ font-family: Verdana, Arial, Sans-serif; font-size:11px; font-weight:normal; font-style:normal; text-decoration:none; font-variant:normal; letter-spacing:1px; }
+.CODE { font-family: Courier New, Monospace; font-size:12px; font-weight:500; font-style:normal; text-decoration:none; font-variant:normal; color: #006F37; background: #FFFFF0; border: 1px dashed #008000; padding: 8px;}
+BODY{margin:40px;margin-top:0;}
+p{line-height:160%;color:#666;}
+h1{display:inline;font-size:16px;}
+p.imp{color:crimson;font-weight:bold;}
+ol,ul{color:#666;line-height:180%;}
+input{font-size:10px;padding:0;letter-spacing:0;}
+tr.rola{background-color:white;}
+td.rolb{cursor:pointer;text-align:center;border:dashed 1px white;background-color:white;}
+
+ul{border:0; margin:0; padding:0;}
+
+#pagination-flickr li{
+border:0; margin:0; padding:0;
+font-size:11px;
+list-style:none;
+}
+#pagination-flickr a{
+border:solid 1px #DDDDDD;
+margin-right:2px;
+}
+#pagination-flickr .previous-off,
+#pagination-flickr .next-off {
+color:#666666;
+display:block;
+float:left;
+font-weight:bold;
+padding:3px 4px;
+}
+#pagination-flickr .next a,
+#pagination-flickr .previous a {
+font-weight:bold;
+border:solid 1px #FFFFFF;
+}
+#pagination-flickr .active{
+color:#ff0084;
+font-weight:bold;
+display:block;
+float:left;
+padding:4px 6px;
+}
+#pagination-flickr a:link,
+#pagination-flickr a:visited {
+color:#0063e3;
+display:block;
+float:left;
+padding:3px 6px;
+text-decoration:none;
+}
+#pagination-flickr a:hover{
+border:solid 1px #666666;
+}

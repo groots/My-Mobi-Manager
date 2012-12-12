@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<script type="application/javascript" language="javascript">
+$(document).ready(function()
+    {
+					    $(window).load(function(){
+    $.getScript('http://widgets.twimg.com/j/2/widget.js', function(){
+    $.getScript('/media/js/twitter.js', function(){
+    $('#twtr-widget-1').appendTo('#twitter_p')
+    })
+    })
+    }) 
+    });
+	
+	    if (!opts.id) {
+    document.write('<div class="twtr-widget" id="' + this.id + '"></div>');
+    } 
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div id="twitter_div"></div>
+</body>
+</html>

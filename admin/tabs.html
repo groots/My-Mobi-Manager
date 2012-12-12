@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Tools standalone demo</title>
+	<script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://static.flowplayer.org/tools/css/standalone.css"/>	
+	<link rel="stylesheet" type="text/css" href="http://static.flowplayer.org/tools/css/tabs.css" />
+	<style>
+.panes .hide {
+	display:none;		
+	padding:15px 10px;
+	border:1px solid #999;
+	border-top:0;
+	height:1%;
+	font-size:14px;
+	background-color:#fff;
+	width: 85%;
+}
+.hide {
+	float: left;
+}
+	</style>
+</head>
+<body>
+<ul class="tabs">
+	<li><a href="#">Tab 1</a></li>
+	<li><a href="#">Tab 2</a></li>
+	<li><a href="#">Tab 3</a></li>
+	<li><a href="#">Tab 4</a></li>
+	<li><a href="#">Tab 5</a></li>
+</ul>
+<div class="panes">
+	<div class="hide">First tab content. Tab contents are called "panes"</div>
+	<div class="hide">About Us
+
+TLS.NET is a privately held, national provider of Internet Services, Data Center Services, Hosted Voice-over-IP and Web-Based Software Development. Headquartered in Columbus, Indiana, TLS.NET has been in business since 1986 and has earned an excellent reputation within an expanding client base. TLS.NET continues to develop innovative products and services that add value to its business relationships.
+
+With data centers in Columbus, Indiana and Indianapolis, Indiana, TLS.NET is able to engineer custom storage and hosting solutions for those companies demanding high growth and security.
+TLS.NET Philosophy
+
+We are a company with passion for technology and that passion pushes us to always be creative but never lose sight of the common sense needed to engineer and support the technology with a one-bill, one-point-of-contact approach.About Us
+
+With data centers in Columbus, Indiana and Indianapolis, Indiana, TLS.NET is able to engineer custom storage and hosting solutions for those companies demanding high growth and security.
+TLS.NET Philosophy
+
+We are a company with passion for technology and that passion pushes us to always be creative but never lose sight of the common sense needed to engineer and support the technology with a one-bill, one-point-of-contact approach.</div>
+	<div class="hide">Third tab content</div>
+	<div class="hide">Fourth tab content</div>
+	<div class="hide">fifth tab content</div>
+</div>
+<script>
+// perform JavaScript after the document is scriptable.
+$(function() {
+	// setup ul.tabs to work as tabs for each div directly under div.panes
+	$("ul.tabs").tabs("div.panes > div");
+});
+</script>
+</body>
+</html>

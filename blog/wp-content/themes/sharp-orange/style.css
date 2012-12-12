@@ -1,0 +1,604 @@
+/*
+
+Theme Name: Sharp Orange
+
+Theme URI: http://making-the-web.com/2008/08/17/sharp-orange/
+
+Description: Theme by www.making-the-web.com
+
+Version: 1.1
+
+Author: Brendon Boshell
+
+Author URI: http://making-the-web.com
+
+Tags: mtw, orange, blue
+
+
+The CSS, XHTML and design is released under GPL:
+
+http://www.opensource.org/licenses/gpl-license.php
+
+
+*/
+
+/*
+	Sorry, this stylesheet is bit messy. Continue if you dare...
+*/
+
+
+
+/* Defaults (Headings, etc) */
+
+
+
+body, html {
+
+	font-family: "Lucida Sans Unicode","Lucida Grande",Verdana,Arial,sans-serif;
+
+	margin: 0;
+
+	font-size: 0.9em;
+
+	color: #333333;
+
+	background: #FF862D url(images/page_bg.jpg) top left no-repeat;
+	
+	height: 100%;
+	
+	overflow: auto;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+
+	font-family: "Lucida Grande",Verdana,"Bitstream Vera Sans",Arial,sans-serif;
+
+	font-weight: bold;
+	
+	margin: 0;
+
+}
+
+h1 {
+
+	font-size: 1.55em;
+
+}
+
+h2 {
+
+	font-size: 1.5em;
+
+}
+
+h3 {
+
+	font-size: 1.25em;
+
+}
+
+h4 {
+
+	font-size: 1.12em;
+
+}
+
+h5 {
+
+	font-size: 1.06em;
+
+}
+
+h6 {
+
+	font-size: 1.03em;
+
+}
+
+a {
+
+	color: #EA6400;
+
+}
+
+
+
+a:visited {
+
+	color: #70103B;
+
+}
+
+
+
+p {
+
+	margin: 0 0 1.3em 0;
+
+}
+
+
+
+
+
+/* Defaults End */
+
+
+
+
+
+.header {
+
+}
+
+.header a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 1.9em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+.blogname {
+}
+
+.tagline {
+	float: right;
+	padding-top: 20px;
+}
+
+.clear {
+
+	clear: both;
+
+	height: 0px;
+
+	overflow: hidden;
+
+	visibility: hidden;
+
+}
+
+
+
+/* Structure & Layout */
+
+#wrapper {
+
+	margin: 0 auto;
+
+	width: 760px;
+
+	text-align: left;
+	
+	margin-top: 150px;
+
+}
+
+/* Structure & Layout End */
+
+
+
+/* Titles */
+
+
+.title a, .title_nolink { 
+
+	font-weight: bold;
+
+	color: #133E6F;
+
+	cursor: pointer;
+	
+	padding: 0;
+	
+	margin: 0;
+
+	margin-right: 2px;
+
+	margin-bottom: 10px;
+
+	float: left;
+
+	text-decoration: none;
+
+}
+
+.title a:visited {
+
+	color: #133E6F;
+
+}
+
+.title a:hover {
+
+	color: #EA6400;
+
+}
+
+
+
+/* Titles End */
+
+
+
+/* Page */
+
+
+
+.pageo {
+
+	padding: 10px 0 0 0;
+	
+	background: #000000;
+
+}
+
+.pagei {
+
+	background: #FFFFFF url(images/sidebar_bg.gif) repeat-y right;
+	
+	margin: 0 10px;
+}
+
+.pagel {
+	
+	padding: 10px;
+	
+	padding-right: 0;
+
+	float: left;
+
+	width: 517px;
+	
+	background: #FFFFFF;
+
+	font-size: /*1.07em*/ 1.12em;
+
+}
+
+.date {
+
+	padding-bottom: 10px;
+
+	font-size: 0.78em;
+
+}
+
+.date a, .date {
+
+	color: #999999;
+
+}
+
+
+
+/* Page End */
+
+
+
+/* Sidebar */
+
+.sidebar {
+
+	float: right;
+
+	width: 180px;
+
+	padding: 10px;
+	
+	color: #333333;
+	
+	background: #66BDFF;
+	
+	border-left: 3px solid #29A2FF;
+
+}
+
+.sidebar a {
+	color: #333333;
+}
+
+.sidebar a:visited {
+	color: #333333;
+}
+
+.sidebar a:hover {
+	color: #000000;
+}
+
+.sidebar h2 {
+
+	font-size: 0.93em;
+
+	margin: 0;
+
+	margin-left: -20px;
+
+	margin-bottom: 6px;
+
+}
+
+
+
+.sidebar ul {
+
+	margin: 0;
+
+	padding: 0;
+
+	list-style-type: none;
+
+}
+
+.sidebar ul li {
+
+	margin-top: 0;
+
+	margin-left: 20px;
+
+	margin-bottom: 1.5em;
+
+}
+
+.sidebar ul li ul li {
+
+	margin: 0.6em 0 0 0;
+
+}
+
+
+
+/* Sidebar End */
+
+
+
+/* Footer */
+
+
+
+.footer {
+
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+
+	background: #000000;
+
+	color: #EEEEEE;
+
+	padding: 10px;
+	padding-top: 0;
+	
+	margin-bottom: 200px;
+
+}
+
+.footertop {
+	background: #000000 url(images/footer_start.png) no-repeat top left;
+	height: 137px;
+}
+
+.footerl {
+
+	float: left;
+
+	width: 380px;
+
+	margin-right: 5px;
+
+	padding: 5px;
+
+	overflow: hidden;
+
+}
+
+.footerr {
+
+	float: left;
+
+	width: 150px;
+
+	padding: 5px;
+
+	overflow: hidden;
+
+}
+
+.footerl h2, .footerr h2 {
+
+	margin: 0;
+
+	font-size: 1.1em;
+
+	padding-bottom: 4px;
+
+}
+
+.footerl ul, .footerr ul {
+
+	margin: 0;
+
+	padding: 0;
+
+	list-style-type: none;
+
+}
+
+
+
+.footerl ul li, .footerr ul li {
+
+	margin-top: 0.5em;
+
+}
+
+.footer a {
+
+	color: #FFFFFF;
+
+}
+
+.footer a:visited {
+
+	color: #FFFFFF;
+
+}
+
+.footerc p, .footerr p {
+
+	margin: 0.5em 0 1.1em 0;
+
+}
+
+
+
+/* Footer End */
+
+
+
+.alignright {
+
+	float: right;
+
+}
+
+.aligncenter {
+	margin: 0 auto;
+	display: block;
+}
+
+
+.alignleft {
+
+	float: left;
+
+}
+
+/* Just the defaults */
+.wp-caption {
+   border: 1px solid #ddd;
+   text-align: center;
+   background-color: #f3f3f3;
+   padding-top: 4px;
+   margin: 10px;
+   /* optional rounded corners for browsers that support it */
+   -moz-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+}
+
+.wp-caption img {
+   margin: 0;
+   padding: 0;
+   border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+   font-size: 11px;
+   line-height: 17px;
+   padding: 0 4px 5px;
+   margin: 0;
+}
+
+
+/* Comments */
+.commentlist .alt {
+
+}
+
+
+
+.commentlist {
+
+	margin: 0;
+
+	margin-bottom: 15px;
+
+	padding: 0;
+
+	list-style-type: none;
+
+}
+
+.commentlist li {
+
+	margin: 0;
+	
+	overflow: hidden;
+
+	padding: 10px;
+
+}
+
+.commentlist .avatar {
+
+	padding-left: 15px;
+
+	height: 80px;
+
+	width:  80px;
+
+	float: right;
+
+	margin: 5px;
+
+}
+
+.commentlist li h2 {
+
+	font-size: 1.25em;
+
+}
+
+.commentmetadata {
+
+	padding-bottom: 10px;
+
+	font-size: 0.78em;
+
+	color: #999999;
+
+	float: right;
+
+}
+
+.separate {
+
+	border-bottom: 2px solid #CCCCCC;
+
+	margin: 10px 0;
+
+	height: 3px;
+
+	width: 100%;
+
+}
+
+
+
+/* Comments End */
+
+
+
+blockquote {
+
+  border-left: 6px solid #DDDDDD;
+
+  padding-left: 6px;
+
+  margin-bottom: 0;
+
+}
+
+img {
+	border: 0;
+}
+
+
+
+/* (c) Copyright Brendon Boshell, 2008. All Rights Resereved */
+
+/* Making the Web [making-the-web.com] */

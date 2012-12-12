@@ -1,0 +1,23 @@
+/*
+Theme Name: Firepress Design
+Theme URI: http://gannett.com/
+Description: The 2012 Gannett Wordpress Solution default theme.
+Author: George Roots	
+Author URI: http://gannett.com/
+Version: 1.0
+Tags: 
+License: Dunno
+License URI:
+
+General comments (optional).
+*/
+
+
+@import url('css/global.css');
+@import url('css/structure.css');
+@import url('css/classes.css');
+@import url('css/sidebar.css');
+@import url('css/therest.css');
+
+
+

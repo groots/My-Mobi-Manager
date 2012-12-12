@@ -1,0 +1,58 @@
+/* CSS Document */
+
+
+#header {
+	margin-top: 0px;
+	background: #09396f;
+    height: 100px;
+	border-bottom: 25px solid #87aac0;
+}
+
+#wrapper {
+    display: block;
+    width:1030px;
+    margin:0px auto;
+}
+
+#topAd {
+	margin: 15px 0px 10px 0px;
+	
+}
+
+#content {
+    width: 100%;
+	max-width: 1030px;
+    float: left;
+	padding-left: 25px;
+}
+
+#blogWrapper {
+	float: left;
+    width: 67%;
+}
+
+#sidebarWrapper {
+	float: left;
+	width: 30%;	
+}
+
+#delimiter {
+    clear: both;
+}
+
+#bottomAd {
+	padding: 25px 0px;s
+	
+}
+
+#footer {
+    border: 2px #a2a2a2 solid;
+	margin: 25px 0px;
+	min-height: 200px;
+}
+
+.title {
+    font-size: 11pt;
+    font-family: verdana;
+    font-weight: bold;
+}

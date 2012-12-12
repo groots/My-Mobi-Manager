@@ -1,0 +1,4 @@
+RewriteCond %{REQUEST_URI}!^/(.+)\.php
+RewriteCond %{HTTP_HOST}!^www\.mydomain\.com
+RewriteCond %{HTTP_HOST} ^([^.]+)\.mydomain\.com
+RewriteRule ^$ /index.php?qs1=%1 [QSA,L]

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6" client="site" method="upgrade">
+<name>JE Footer</name>
+<author>Galaa</author>
+<creationDate>2011-06-22</creationDate>
+<copyright>Copyright (C) 2011 Galaa (galaa.mn)</copyright>
+<license>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</license>
+<authorEmail>contact@galaa.mn</authorEmail>
+<authorUrl>www.galaa.mn</authorUrl>
+<version>1.1</version>
+<description>This module displays fully customizable credit/copyright notice and additional text with with link. Copyright (C) 2011 Galaa (http://galaa.mn/)</description>
+<files>
+	<filename >mod_jefooter.php</filename>
+	<folder module="mod_jefooter">tmpl</folder>
+	<filename>index.html</filename>
+</files>
+<languages folder="language">
+	<language tag="en-GB">en-GB.mod_jefooter.ini</language>
+</languages>
+<config>
+	<fields name="params">
+		<fieldset name="basic">
+			<field name="moduleclass_sfx" type="text" default="" size="30" label="CSS_SUFFIX" description="CSS_SUFFIX_DESC" />
+
+			<field type="spacer" name="spacer1" class="text" label="COPYRIGHT_SPACER_LABEL" />
+		        <field name="copyright_text" type="list" default="1" label="COPYRIGHT_TEXT_LABEL" description="COPYRIGHT_TEXT_DESC" >
+				<option value="0">HIDE</option>
+				<option value="1">DEFAULT_COPYRIGHT_TEXT</option>
+				<option value="2">CUSTOM_COPYRIGHT_TEXT</option>
+			</field>
+			<field name="copyright_custom_text" type="text" default="Copyright" size="30" label="COPYRIGHT_CUSTOM_TEXT_LABEL" description="COPYRIGHT_CUSTOM_TEXT_DESC" />
+		        <field name="copyright_symbol" type="list" default="1" label="COPYRIGHT_SYMBOL_LABEL" description="COPYRIGHT_SYMBOL_DESC" >
+				<option value="0">HIDE</option>
+				<option value="1">DEFAULT_COPYRIGHT_SYMBOL</option>
+				<option value="2">CUSTOM_COPYRIGHT_SYMBOL</option>
+			</field>
+			<field name="copyright_custom_symbol" type="text" default="" size="30" label="COPYRIGHT_CUSTOM_SYMBOL_LABEL" description="COPYRIGHT_CUSTOM_SYMBOL_DESC" />
+		        <field name="copyright_order" type="list" default="1" label="COPYRIGHT_ORDER_LABEL" description="COPYRIGHT_ORDER_DESC" >
+				<option value="1">COPYRIGHT_TEXT_FIRST</option>
+				<option value="2">COPYRIGHT_SYMBOL_FIRST</option>
+			</field>
+		        <field name="copyright_year" type="list" default="1" label="COPYRIGHT_YEAR_LABEL" description="COPYRIGHT_YEAR_DESC" >
+				<option value="0">HIDE</option>
+				<option value="1">START_YEAR_AND_CURRENT_YEAR</option>
+				<option value="2">START_YEAR_ONLY</option>
+				<option value="3">CURRENT_YEAR_ONLY</option>
+			</field>
+			<field name="copyright_start_year" type="text" default="" size="30" label="COPYRIGHT_START_YEAR_LABEL" description="COPYRIGHT_START_YEAR_DESC" />
+		        <field name="copyright_author" type="list" default="1" label="COPYRIGHT_AUTHOR_LABEL" description="COPYRIGHT_AUTHOR_DESC" >
+				<option value="0">HIDE</option>
+				<option value="1">SITE_NAME</option>
+				<option value="2">CUSTOM_AUTHOR_NAME</option>
+			</field>
+			<field name="copyright_custom_author" type="text" default="" size="30" label="COPYRIGHT_CUSTOM_AUTHOR_LABEL" description="COPYRIGHT_CUSTOM_AUTHOR_DESC" />
+		        <field name="copyright_author_link" type="list" default="1" label="COPYRIGHT_AUTHOR_LINK_LABEL" description="COPYRIGHT_AUTHOR_LINK_DESC" >
+				<option value="1">ANSWER_YES</option>
+				<option value="0">ANSWER_NO</option>
+			</field>
+			<field name="copyright_author_url" type="text" default="" size="30" label="COPYRIGHT_AUTHOR_URL_LABEL" description="COPYRIGHT_AUTHOR_URL_DESC" />
+			<field name="copyright_author_url_target" type="list" default="_blank" label="COPYRIGHT_AUTHOR_URL_TARGET_LABEL" description="COPYRIGHT_AUTHOR_URL_TARGET_DESC" >
+				<option value="_blank">TARGET_BLANK</option>
+				<option value="_self">TARGET_SELF</option>
+				<option value="_parent">TARGET_PARENT</option>
+				<option value="_top">TARGET_TOP</option>
+			</field>
+
+			<field type="spacer" name="spacer2" class="text" label="ADDITIONAL_TEXT_SPACER_LABEL" />
+		        <field name="seperator" type="list" default="1" label="SEPERATOR_LABEL" description="SEPERATOR_DESC" >
+				<option value="0">HIDE</option>
+				<option value="1">DEFAULT_SEPERATOR</option>
+				<option value="2">CUSTOM_SEPERATOR</option>
+			</field>
+			<field name="custom_seperator" type="text" default="" size="30" label="CUSTOM_SEPERATOR_LABEL" description="CUSTOM_SEPERATOR_DESC" />
+		        <field name="additional_1" type="list" default="0" label="ADDITIONAL_LABEL" description="ADDITIONAL_DESC" >
+				<option value="0">HIDE</option>
+				<option value="1">SHOW</option>
+				<option value="2">SHOW_WITH_LINK</option>
+			</field>
+			<field name="additional_1_label" type="text" default="" size="30" label="ADDITIONAL_LABEL_LABEL" description="ADDITIONAL_LABEL_DESC" />
+			<field name="additional_1_text" type="text" default="" size="30" label="ADDITIONAL_TEXT_LABEL" description="ADDITIONAL_TEXT_DESC" />
+			<field name="additional_1_url" type="text" default="" size="30" label="ADDITIONAL_URL_LABEL" description="ADDITIONAL_URL_DESC" />
+			<field name="additional_1_url_target" type="list" default="_blank" label="ADDITIONAL_URL_TARGET_LABEL" description="ADDITIONAL_URL_TARGET_DESC" >
+				<option value="_blank">TARGET_BLANK</option>
+				<option value="_self">TARGET_SELF</option>
+				<option value="_parent">TARGET_PARENT</option>
+				<option value="_top">TARGET_TOP</option>
+			</field>
+		        <field name="additional_2" type="list" default="0" label="ADDITIONAL_LABEL" description="ADDITIONAL_DESC" >
+				<option value="0">HIDE</option>
+				<option value="1">SHOW</option>
+				<option value="2">SHOW_WITH_LINK</option>
+			</field>
+			<field name="additional_2_label" type="text" default="" size="30" label="ADDITIONAL_LABEL_LABEL" description="ADDITIONAL_LABEL_DESC" />
+			<field name="additional_2_text" type="text" default="" size="30" label="ADDITIONAL_TEXT_LABEL" description="ADDITIONAL_TEXT_DESC" />
+			<field name="additional_2_url" type="text" default="" size="30" label="ADDITIONAL_URL_LABEL" description="ADDITIONAL_URL_DESC" />
+			<field name="additional_2_url_target" type="list" default="_blank" label="ADDITIONAL_URL_TARGET_LABEL" description="ADDITIONAL_URL_TARGET_DESC" >
+				<option value="_blank">TARGET_BLANK</option>
+				<option value="_self">TARGET_SELF</option>
+				<option value="_parent">TARGET_PARENT</option>
+				<option value="_top">TARGET_TOP</option>
+			</field>
+		        <field name="additional_3" type="list" default="0" label="ADDITIONAL_LABEL" description="ADDITIONAL_DESC" >
+				<option value="0">HIDE</option>
+				<option value="1">SHOW</option>
+				<option value="2">SHOW_WITH_LINK</option>
+			</field>
+			<field name="additional_3_label" type="text" default="" size="30" label="ADDITIONAL_LABEL_LABEL" description="ADDITIONAL_LABEL_DESC" />
+			<field name="additional_3_text" type="text" default="" size="30" label="ADDITIONAL_TEXT_LABEL" description="ADDITIONAL_TEXT_DESC" />
+			<field name="additional_3_url" type="text" default="" size="30" label="ADDITIONAL_URL_LABEL" description="ADDITIONAL_URL_DESC" />
+			<field name="additional_3_url_target" type="list" default="_blank" label="ADDITIONAL_URL_TARGET_LABEL" description="ADDITIONAL_URL_TARGET_DESC" >
+				<option value="_blank">TARGET_BLANK</option>
+				<option value="_self">TARGET_SELF</option>
+				<option value="_parent">TARGET_PARENT</option>
+				<option value="_top">TARGET_TOP</option>
+			</field>
+		        <field name="additional_4" type="list" default="0" label="ADDITIONAL_LABEL" description="ADDITIONAL_DESC" >
+				<option value="0">HIDE</option>
+				<option value="1">SHOW</option>
+				<option value="2">SHOW_WITH_LINK</option>
+			</field>
+			<field name="additional_4_label" type="text" default="" size="30" label="ADDITIONAL_LABEL_LABEL" description="ADDITIONAL_LABEL_DESC" />
+			<field name="additional_4_text" type="text" default="" size="30" label="ADDITIONAL_TEXT_LABEL" description="ADDITIONAL_TEXT_DESC" />
+			<field name="additional_4_url" type="text" default="" size="30" label="ADDITIONAL_URL_LABEL" description="ADDITIONAL_URL_DESC" />
+			<field name="additional_4_url_target" type="list" default="_blank" label="ADDITIONAL_URL_TARGET_LABEL" description="ADDITIONAL_URL_TARGET_DESC" >
+				<option value="_blank">TARGET_BLANK</option>
+				<option value="_self">TARGET_SELF</option>
+				<option value="_parent">TARGET_PARENT</option>
+				<option value="_top">TARGET_TOP</option>
+			</field>
+		        <field name="additional_5" type="list" default="0" label="ADDITIONAL_LABEL" description="ADDITIONAL_DESC" >
+				<option value="0">HIDE</option>
+				<option value="1">SHOW</option>
+				<option value="2">SHOW_WITH_LINK</option>
+			</field>
+			<field name="additional_5_label" type="text" default="" size="30" label="ADDITIONAL_LABEL_LABEL" description="ADDITIONAL_LABEL_DESC" />
+			<field name="additional_5_text" type="text" default="" size="30" label="ADDITIONAL_TEXT_LABEL" description="ADDITIONAL_TEXT_DESC" />
+			<field name="additional_5_url" type="text" default="" size="30" label="ADDITIONAL_URL_LABEL" description="ADDITIONAL_URL_DESC" />
+			<field name="additional_5_url_target" type="list" default="_blank" label="ADDITIONAL_URL_TARGET_LABEL" description="ADDITIONAL_URL_TARGET_DESC" >
+				<option value="_blank">TARGET_BLANK</option>
+				<option value="_self">TARGET_SELF</option>
+				<option value="_parent">TARGET_PARENT</option>
+				<option value="_top">TARGET_TOP</option>
+			</field>
+		</fieldset>
+		<fieldset name="advanced">
+			<field name="cache" type="list" default="1" label="CACHING" description="CACHING_DESC">
+				<option value="1">Use Global</option>
+				<option value="0">No caching</option>
+			</field>
+			<field name="cache_time" type="text" default="900" label="CACHING_TIME" description="CACHING_TIME_DESC" />
+		</fieldset>
+	</fields>
+</config>
+</extension>
